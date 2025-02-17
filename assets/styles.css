@@ -1,0 +1,57 @@
+/* Basic dark theme styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+/* Sidebar container */
+.sidebar {
+  width: 240px;
+  min-height: 100vh;  /* full page height */
+  background-color: #222;
+  float: left;        /* place sidebar on the left */
+  padding: 20px;
+}
+
+/* Sidebar heading */
+.sidebar h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 8px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+.sidebar a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Main content area */
+.main-content {
+  margin-left: 240px; /* push content to the right of the sidebar */
+  padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: #fff;
+}
+
+/* Links within content */
+a {
+  color: #64b5f6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
